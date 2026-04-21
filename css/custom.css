@@ -1,3 +1,10 @@
+
+/*Part 1(b)(i) Contrast and brightness solution 1 - background colour */
+body {
+    background-color: #FFFDD0
+}
+
+
 .header {
     background-color: #3c9fc3;
     color: white;
@@ -7,10 +14,20 @@ h1.header {
     font-size: 9vw;
 }
 
+/*Part 1(b)(i) Contrast and brightness solution 2 - header elements contrast */
 h2, h3, h4 {
-    color: #7bd5d5;
+    color: #202020;
 }
 
+/*Part 1(b)(i) Contrast and brightness solution 3 - login button contrast part 1 */
+.login-button {
+    color: #ffffff;
+    background-color: #202020;
+}
+/*Part 1(b)(i) Contrast and brightness solution 3 - login button contrast part 2 */
+.login-button-link {
+    color: #ffffff;
+}
 form.register {
     border: 1px solid #3c9fc3;
     background-color: lightgrey;
@@ -40,3 +57,4 @@ Assistive technologies solution 2 - hamburger menu item: adding screen reader co
   clip: rect(0, 0, 0, 0); /* Clip the content to a 0 rectangle */
   border: 0; /* Remove borders */
 }
+
