@@ -27,3 +27,16 @@ form.register {
     width: 125px;
     height: 125px;
 }
+
+/*Part 1(b)(i) 
+Assistive technologies solution 2 - hamburger menu item: adding screen reader compatibility
+*/
+.screen-reader-text {
+  position: absolute; /* Position it out of the flow of the document */
+  width: 1px; height: 1px; /* Minimize its size */
+  margin: -1px; /* Place it out of the viewport */
+  padding: 0; /* Remove padding */
+  overflow: hidden; /* Hide any content that overflows its box */
+  clip: rect(0, 0, 0, 0); /* Clip the content to a 0 rectangle */
+  border: 0; /* Remove borders */
+}
