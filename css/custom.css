@@ -58,3 +58,14 @@ Assistive technologies solution 2 - hamburger menu item: adding screen reader co
   border: 0; /* Remove borders */
 }
 
+/*Part 1(b)(i) Usability solution 1 - image sizing part 2 */
+.logo-image {
+    height: 15rem;
+    width: 15rem
+}
+
+/* Part 1(b)(i) Usability solution 1 - image sizing part 4 */
+.taster-module-image {
+    height: 4rem;
+    width: 4rem
+}
