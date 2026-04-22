@@ -21,15 +21,12 @@ h2, h3, h4 {
     color: #202020;
 }
 
-/*Part 1(b)(i) Contrast and brightness solution 3 - login button contrast part 1 */
+/*Part 1(b)(i) Contrast and brightness solution 3 - login button contrast*/
 .login-button {
     color: #ffffff;
     background-color: #202020;
 }
-/*Part 1(b)(i) Contrast and brightness solution 3 - login button contrast part 2 */
-.login-button-link {
-    color: #ffffff;
-}
+
 form.register {
     border: 1px solid #3c9fc3;
     background-color: lightgrey;
