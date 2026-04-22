@@ -68,3 +68,7 @@ Assistive technologies solution 2 - hamburger menu item: adding screen reader co
     height: 4rem;
     width: 4rem
 }
+
+a.body-link {
+    color:#202020
+}
